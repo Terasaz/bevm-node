@@ -22,7 +22,6 @@ sudo docker run -d -v "$dataPath:/root/.local/share/bevm" --name "$containerName
   --telemetry-url "wss://telemetry.bevm.io/submit 0"
 
 echo "Docker container '$containerName' started."
-echo "Subscribe to our channel -> https://t.me/HappyCuanAirdrop"
 
 echo "Tailing logs of Docker container '$containerName':"
 sudo docker logs -f "$containerName"
